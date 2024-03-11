@@ -110,7 +110,7 @@ body{
 }
 /* section 2 */
 
-.section-2 {
+.section-2, .section-3 {
     display: flex;
     width: 100%;
     justify-content: space-between;
@@ -167,7 +167,7 @@ body{
 
 /* section 3 - Categorias */
 
-.section-3{
+.section-4{
     display: flex;
     justify-content: space-between;
     height: auto;
@@ -218,7 +218,8 @@ body{
 
 .section-2,
 .section-3,
-.section-4 {
+.section-4,
+.section-5 {
     display: flex;
     width: 100%;
     border-top: 1px solid #ff5e00c7;
@@ -232,7 +233,7 @@ body{
 
 /* section 4 - Filmes */
 
-.section-4{
+.section-5{
     padding: 30px 0px;
     border-bottom: 1px solid #FF5F00;
 }
