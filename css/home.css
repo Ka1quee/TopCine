@@ -288,12 +288,62 @@ body{
             align-items: center;
         }
 
+        .section-1 .container-texto {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 85%;
+        }
+
+        .section-1 h1 {
+            width: 100%;
+            text-align: center;
+            font-size: 3.5rem;
+
+        }
+
         .section-1 h2{
             width: 100%;
+            text-align: center;
+            font-size: 2rem;
         }
 
         .container-img-inicial img{
             display: none;
+        }
+
+        .section-2 .container-texto-2 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 85%;
+        }
+
+        .section-2 h1 {
+            text-align: center;
+            font-size: 3.5rem;
+        }
+
+        .section-2 h2 {
+            text-align: center;
+            width: 75%;
+        }
+
+        .section-3 .container-texto-2 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 85%;
+        }
+
+        .section-3 h1 {
+            text-align: center;
+            font-size: 3rem;
+        }
+
+        .section-3 h2 {
+            text-align: center;
+            width: 90%;
         }
 
         .section-3, .container-mensagem, .container-texto2{
@@ -318,12 +368,76 @@ body{
             text-align: center;
         }
 
-
-
-        .container-capa{
-            margin: auto;
-            margin-top: 30px;
+        .section-4 .container-texto-categoria {
+            justify-content: center;
+            align-items: center;
+            width: 100%;
         }
+
+        .section-4 .categoria-texto {
+            display: flex;
+            align-items: center;
+        }
+
+        .section-4 .container-texto-categoria h1 {
+            display: block;
+            width: 100%;
+
+            text-align: center;
+
+            font-size: 3.5rem;
+        }
+
+        .section-4 .container-texto-categoria h2 {
+            width: 80%;
+            text-align: center;
+        }
+
+        .section-4 .container-card-categoria {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: center;  
+
+            width: 100%;
+        }
+
+        .section-4 .container-card-categoria a {
+            width: 27%;
+            height: 32%;
+        }
+
+
+        .section-5 .container-texto2 {
+            align-items: start;
+        }
+
+        .section-5 .container-texto2 h1 {
+            width: 100%;
+            font-size: 4rem;
+        }
+
+        .section-5 .container-texto2 h2 {
+            width: 88%;
+            font-size: 2rem;
+        }
+
+        .card-categoria {
+            width: 100%;
+            height: 100%;
+        }
+
+        .container-mini-cards {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: flex-start;
+
+            width: 70%;
+        }
+
+        
+
     }
 
 
