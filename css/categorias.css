@@ -17,6 +17,10 @@
 
 }
 
+body {
+    background-color: rgba(0, 0, 0, 0.904);
+}
+
 /* ------------------------------------------------------------ */
 
 .conteudo {
@@ -81,6 +85,3 @@
 }
 
 
-body {
-    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(42, 42, 42, 1) 100%);
-}
