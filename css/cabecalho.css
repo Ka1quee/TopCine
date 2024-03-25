@@ -130,6 +130,10 @@ a{
         display: none;
     }
 
+    #link-test {
+        display: inline;
+    }
+
     #menu-hamburguer {
         display: inline;
         margin-right: 30px;
