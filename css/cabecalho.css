@@ -71,11 +71,7 @@ a{
     cursor: pointer;
 }
 
-#link-test {
-    display: none;
-}
-
-#menu-hamburguer {
+#link-test, #menu-hamburguer {
     display: none;
 }
 
