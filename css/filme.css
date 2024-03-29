@@ -389,6 +389,28 @@ iframe {
     .container-elenco, .container-recomendacao {
         justify-content: center; /* Alinhe os elementos ao centro */
       }
-  }
+}
+
+@media only screen and (max-width: 388px) {
+    .section1-informacoes-gerais {
+      gap: 20px; /* Reduza o espaçamento entre os elementos */
+    }
+
+    .titulo-1 {
+        font-size: 2rem;
+    }
+
+    .section2-trailer {
+        height: 260px;
+    }
   
-  /* Adicione mais regras de mídia conforme necessário para outros tamanhos de tela */
+    .container-trailer {
+      width: 100%; /* Faça o vídeo do trailer ocupar toda a largura */
+      height: 250px; /* Defina a altura automática para que o vídeo se ajuste */
+    }
+  
+    .container-elenco, .container-recomendacao {
+        justify-content: center; /* Alinhe os elementos ao centro */
+      }
+}
+  
