@@ -75,6 +75,10 @@ a{
     display: none;
 }
 
+#menu-hamburguer {
+    display: none;
+}
+
 @media only screen and (max-width: 1280px) {
     .top-cine {
         font-size: 1.5rem;
