@@ -64,3 +64,79 @@ body{
 div img:hover {
     filter: brightness(100%);
 }
+
+
+@media screen and (max-width: 1046px) {
+    .card-poster {
+        height: 450px;
+      }
+}
+
+@media screen and (max-width: 1046px) {
+    .card-poster {
+        height: 400px;
+      }
+}
+
+@media screen and (max-width: 824px) {
+    .card-poster {
+        height: 370px;
+      }
+}
+
+
+@media screen and (max-width: 768px) {
+    .card-poster {
+        height: 350px;
+      }
+}
+
+@media screen and (max-width: 506px) {
+    .section-1 h1{
+        font-size: 48px;
+    }
+
+    .poster h1{
+        font-size: 1.7rem;
+    }
+
+    .card-poster {
+        height: 225px;
+        margin-bottom: 33px;
+      }
+}
+
+@media screen and (max-width: 425px) {
+    .section-1 h1{
+        font-size: 40px;
+    }
+
+    .poster h1{
+        font-size: 1.5rem;
+    }
+
+    .card-poster {
+        height: 173px;
+      }
+}
+
+@media screen and (max-width: 375px) {
+    .card-poster {
+        height: 150px;
+      }
+}
+
+@media screen and (max-width: 320px) {
+    .section-1 h1{
+        font-size: 30px;
+    }
+
+    .poster h1{
+        font-size: 1.2rem;
+    }
+
+    .card-poster {
+        height: 125px;
+        margin-bottom: 15px;
+      }
+}
